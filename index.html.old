@@ -67,16 +67,11 @@ a.navbar-brand:hover
   </head>
   <body>
     <script src="assets/js/bsa.js"></script>
+
     <div class="navbar navbar-fixed-top navbar-commsec">
       <div class="container">
         <div class="navbar-header">
-          <a href="index.html" class="navbar-brand">#CommSecHackathon</a>
-	  <a href="#what1" class="navbar-brand">|&nbsp;What is it?</a>
-	  <a href="#who1" class="navbar-brand">| Who can do it?</a>
-	  <a href="#event1" class="navbar-brand">| Event Structure</a>
-	  <a href="#rules1" class="navbar-brand">| The Rules</a>
-	  <a href="#event1" class="navbar-brand">| FAQs</a>
-	  <a href="#register1" class="navbar-brand">| Register</a>
+          <a href="index.html" class="navbar-brand">CommSec Hackathon - 19th Sept, from 3pm</a>
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -84,45 +79,76 @@ a.navbar-brand:hover
           </button>
         </div>
         <div class="navbar-collapse collapse" id="navbar-main">
-      </div>
+          <ul class="nav navbar-nav">
+            <!--<li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="items">Items <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="items">
+                <li><a tabindex="-1" href="#">Default</a></li>
+                <li class="divider"></li>
+                <li><a tabindex="-1" href="#">Item</a></li>
+                <li><a tabindex="-1" href="#">Item</a></li>
+                <li><a tabindex="-1" href="#">Item</a></li>
+                <li><a tabindex="-1" href="#">Item</a></li>
+                <li><a tabindex="-1" href="#">Item</a></li>
+                <li><a tabindex="-1" href="#">Item</a></li>
+                <li><a tabindex="-1" href="#">Item</a></li>
+                <li><a tabindex="-1" href="#">Item</a></li>
+                <li><a tabindex="-1" href="#">Item</a></li>
+                <li><a tabindex="-1" href="#">Item</a></li>
+                <li><a tabindex="-1" href="#">Item</a></li>
+              </ul>
+            </li>-->
+            <!--<li>
+              <a class="" href="http://eepurl.com/DMEhn">Sign up now</a>
+            </li>-->
+          </ul>
+<!--
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://builtwithbootstrap.com/" target="_blank">Built With Bootstrap</a></li>
+            <li><a href="https://wrapbootstrap.com/?ref=bsw" target="_blank">WrapBootstrap</a></li>
+          </ul>-->
+
+        </div>
       </div>
     </div>
-    <a name="register1"></a>
-    
-<div class="splash" style="background-image:url('assets/img/blue-sky.jpg');background-size: 100%;">
+
+    <div class="splash" style="background-image:url('assets/img/blue-sky.jpg')">
       <div class="container">
 
         <div class="row">
           <div class="col-lg-12">
             <h1 style="text-shadow: 2px 2px #333333;">#CommSecHackathon</h1>
-	    <h2 style="text-shadow: 2px 2px #333333;">19th Sep 2013, from 3pm</h2>
 <p>Enter your @CBA email address to register your interest</p>
+              
+
+              <!--<p><a class="btn btn-info" style="width:320px" href="http://eepurl.com/DMEhn">Click here join in</a></p>-->
+
               <!-- Begin MailChimp Signup Form -->
+                      
+                      
+                      
 
 <form class="form" action="http://twitter.us7.list-manage.com/subscribe/post?u=8420c1c10fa8cb6c8188cd01a&amp;id=0a08115493" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
   <p><input type="email" value="" name="EMAIL" class="email rounded-corners" id="mce-EMAIL" placeholder="your.email@cba.com.au" style="height:42px;width:320px;" required></p>
-  <p><input type="submit" value="Register" name="subscribe" id="mc-embedded-subscribe" style="height:42px;width:320px;" class="btn btn-info"></p>
+  <p><input type="submit" value="I'm interested" name="subscribe" id="mc-embedded-subscribe" style="height:42px;width:320px;" class="btn btn-info"></p>
 </form>
 <!--End mc_embed_signup-->
           </div>
         </div>
 
       </div>
-      <a name="what1"></a>
-      <a name="who1"></a>
     </div>
 
     <div class="section-tout">
       <div class="container">
+
         <div class="row">
-          <div class="col-lg-6 col-sm-6">
-            <h3><i class="icon-rocket"></i>What is a hackathon?</h3>
-            <p>A <a href="http://en.wikipedia.org/wiki/Hackathon" target="_blank">hackathon</a> (also known as a hack day, hackfest or codefest) is an event in which computer programmers and others involved in software development, including graphic designers, interface designers and project managers, collaborate intensively on software projects.<br/>
-		<br/>The goal?<br>
-		<br/>Make a working prototype in 24 hours without the usual overheads. You choose the stack. You choose the hosting. Don't like the work PC? BYOD!<br/>
+          <div class="col-lg-4 col-sm-6">
+            <h3><i class="icon-rocket"></i> What is a hackathon?</h3>
+            <p>A <a href="http://en.wikipedia.org/wiki/Hackathon" target="_blank">hackathon</a> (also known as a hack day, hackfest or codefest) is an event in which computer programmers and others involved in software development, including graphic designers, interface designers and project managers, collaborate intensively on software projects.<br/><br/>
             </p>
           </div>
-          <div class="col-lg-6 col-sm-6">
+          <div class="col-lg-8 col-sm-6">
             <h3><i class="icon-cogs"></i> Who can participate?</h3>
             <p class="">All of CommSec is invited - To build a great solution in just 24 hours we need great collaboration between people of many different skills.<br/>
              <ul>
@@ -149,17 +175,13 @@ a.navbar-brand:hover
             <iframe width="350" height="200" src="http://www.youtube.com/embed/Tv5-5qyYDeA" frameborder="0" allowfullscreen="">
                 </iframe>
           </span>
-	  <a name="event1"></a>
-	  <a name="faqs1"></a>
         </div>
 
 
         <div class="row">
-          <div class="col-lg-6 col-sm-6">
+          <div class="col-lg-4 col-sm-6">
             <h3><i class="icon-calendar"></i> Event Structure</h3>
             Subject to change, but this will be the rough plan for the event on Sept 19th-20th:
-            
-  <iframe src="https://docs.google.com/forms/d/1uIXdmyhZoINWpe8uR_3jwPMoUf_VOKbrWPF20f9_36M/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
             <ul>
               <li><b>Registration</b> - people who are participating sign-in or register at the terrace on level 6</li>
               <li><b>Idea pitches, teams forming</b> - participants with ideas get a short time to pitch their idea to everyone. Small teams get formed by those with ideas in common</li>
@@ -168,16 +190,16 @@ a.navbar-brand:hover
               <li><b>Pitch to the crowd</b> - The judges select some competitors to proceed through to pitch to everyone present</li>
               <li><b>Prizes and celebration</b> - Winners are chosen, prizes handed out, then we all go and celebrate</li>
             </ul>
-            <h3><a name="rules1"></a><i class="icon-book"></i> The Rules</h3>
+            <h3><i class="icon-book"></i> The Rules</h3>
             A few things general guidelines to follow if you decide to participate.
             <ul>
-              <li><b><u>Rule 1:</u></b> Don't be an jerk.</li>
-              <li><b><u>Rule 2:</u></b> All new code must be completed before cut-off</li>
+              <li><b><u>Rule 1:</u></b> Don't be an a%#hole.</li>
+              <li><b><u>Rule 2:</u></b> All coding must be completed during the competition.</li>
               <li><b><u>Rule 3:</u></b> Judge's decisions are final.</li>
             </ul>
             Also note at this point that whatever Intellectual Property is created during the event will be owned by CommSec.
           </div>
-          <div class="col-lg-6 col-sm-6">
+          <div class="col-lg-8 col-sm-6">
             <h3><i class="icon-cogs"></i> FAQs</h3>
             <p><b>Q. Will there be food &amp; drinks provided?</b><br/><br/>
               A. Dinner, breakfast and lunch will be provided, along with energy drinks and snacks to keep you going. Rumours of free beer cannot be confirmed or denied at this time.</p>
@@ -194,44 +216,18 @@ a.navbar-brand:hover
       </div>
     </div>
 
-    <div class="section-preview">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-6 col-sm-6">
-            <h3>Register your details</h3>
-            <form role="form">
-  <div class="form-group">
-    <label for="email">Email address</label>
-    <input type="email" class="form-control" id="email" placeholder="Enter email">
-  </div>
-  <div class="form-group">
-    <label for="password">Password</label>
-    <input type="password" class="form-control" id="password" placeholder="Password">
-  </div>
-  <div class="form-group">
-    <label for="password2">Confirm your password</label>
-    <input type="password" class="form-control" id="password2" placeholder="Re-Enter Password">
-  </div>
-  <button type="submit" class="btn btn-default">Submit</button>
+        <div class="splash">
+          <div class="col-lg-12">
+            <div class="span8">
+            <h3>Register your interest now - more information to follow</h3>
+<form class="form" action="http://twitter.us7.list-manage.com/subscribe/post?u=8420c1c10fa8cb6c8188cd01a&amp;id=0a08115493" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+  <p><input type="email" value="" name="EMAIL" class="email rounded-corners" id="mce-EMAIL" placeholder="your.email@cba.com.au" style="height:42px;width:320px;" required></p>
+  <p><input type="submit" value="I'm interested" name="subscribe" id="mc-embedded-subscribe" style="height:42px;width:320px;" class="btn btn-info"></p>
 </form>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="preview">
-              <div class="image">
-                <img src="http://placehold.it/360x240" class="img-responsive">
-              </div>
-              <div class="options">
-                <h3><input type="text" class="form-control" id="teamName" placeholder="Enter Team Name"></h3>
-                <p> </p>
-                <div class="btn-group"><a class="btn btn-info" href="#">Create New Team</a></div>
-              </div>
             </div>
           </div>
-          </div>
-    </div>
-    </div>
-
+        </div>
+<!--
     <div class="section-preview">
       <div class="container">
         <div class="row">
@@ -239,11 +235,11 @@ a.navbar-brand:hover
           <div class="col-lg-4 col-sm-6">
             <div class="preview">
               <div class="image">
-                <a href="#"><img src="http://placehold.it/360x240" class="img-responsive"></a>
+                <a href="#"><img src="http://placehold.it/360x180" class="img-responsive"></a>
               </div>
               <div class="options">
-                <h3>Team Name</h3><br/>
-                <p>Team Member #1</p><p>Team Member #2</p><p>Team Member #3</p><p>Team Member #4</p>
+                <h3>Team Name</h3>
+                <p>Team description... </p>
                 <div class="btn-group"><a class="btn btn-info" href="#">View Team Home</a></div>
               </div>
             </div>
@@ -252,11 +248,11 @@ a.navbar-brand:hover
           <div class="col-lg-4 col-sm-6">
             <div class="preview">
               <div class="image">
-                <a href="#"><img src="http://placehold.it/360x240" class="img-responsive"></a>
+                <a href="#"><img src="http://placehold.it/360x180" class="img-responsive"></a>
               </div>
               <div class="options">
-                <h3>Team Name</h3><br/>
-                <p>Team Member #1</p><p>Team Member #2</p><p>Team Member #3</p><p>Team Member #4</p>
+                <h3>Team Name</h3>
+                <p>Team description... </p>
                 <div class="btn-group"><a class="btn btn-info" href="#">View Team Home</a></div>
               </div>
             </div>
@@ -264,11 +260,11 @@ a.navbar-brand:hover
           <div class="col-lg-4 col-sm-6">
             <div class="preview">
               <div class="image">
-                <a href="#"><img src="http://placehold.it/360x240" class="img-responsive"></a>
+                <a href="#"><img src="http://placehold.it/360x180" class="img-responsive"></a>
               </div>
               <div class="options">
-                <h3>Team Name</h3><br/>
-                <p>Team Member #1</p><p>Team Member #2</p><p>Team Member #3</p><p>Team Member #4</p>
+                <h3>Team Name</h3>
+                <p>Team description... </p>
                 <div class="btn-group"><a class="btn btn-info" href="#">View Team Home</a></div>
               </div>
             </div>
@@ -276,11 +272,11 @@ a.navbar-brand:hover
           <div class="col-lg-4 col-sm-6">
             <div class="preview">
               <div class="image">
-                <a href="#"><img src="http://placehold.it/360x240" class="img-responsive"></a>
+                <a href="#"><img src="http://placehold.it/360x180" class="img-responsive"></a>
               </div>
               <div class="options">
-                <h3>Team Name</h3><br/>
-                <p>Team Member #1</p><p>Team Member #2</p><p>Team Member #3</p><p>Team Member #4</p>
+                <h3>Team Name</h3>
+                <p>Team description... </p>
                 <div class="btn-group"><a class="btn btn-info" href="#">View Team Home</a></div>
               </div>
             </div>
@@ -288,11 +284,11 @@ a.navbar-brand:hover
           <div class="col-lg-4 col-sm-6">
             <div class="preview">
               <div class="image">
-                <a href="#"><img src="http://placehold.it/360x240" class="img-responsive"></a>
+                <a href="#"><img src="http://placehold.it/360x180" class="img-responsive"></a>
               </div>
               <div class="options">
-                <h3>Team Name</h3><br/>
-                <p>Team Member #1</p><p>Team Member #2</p><p>Team Member #3</p><p>Team Member #4</p>
+                <h3>Team Name</h3>
+                <p>Team description... </p>
                 <div class="btn-group"><a class="btn btn-info" href="#">View Team Home</a></div>
               </div>
             </div>
@@ -300,11 +296,11 @@ a.navbar-brand:hover
           <div class="col-lg-4 col-sm-6">
             <div class="preview">
               <div class="image">
-                <a href="#"><img src="http://placehold.it/360x240" class="img-responsive"></a>
+                <a href="#"><img src="http://placehold.it/360x180" class="img-responsive"></a>
               </div>
               <div class="options">
-                <h3>Team Name</h3><br/>
-                <p>Team Member #1</p><p>Team Member #2</p><p>Team Member #3</p><p>Team Member #4</p>
+                <h3>Team Name</h3>
+                <p>Team description... </p>
                 <div class="btn-group"><a class="btn btn-info" href="#">View Team Home</a></div>
               </div>
             </div>
@@ -312,11 +308,11 @@ a.navbar-brand:hover
           <div class="col-lg-4 col-sm-6">
             <div class="preview">
               <div class="image">
-                <a href="#"><img src="http://placehold.it/360x240" class="img-responsive"></a>
+                <a href="#"><img src="http://placehold.it/360x180" class="img-responsive"></a>
               </div>
               <div class="options">
-                <h3>Team Name</h3><br/>
-                <p>Team Member #1</p><p>Team Member #2</p><p>Team Member #3</p><p>Team Member #4</p>
+                <h3>Team Name</h3>
+                <p>Team description... </p>
                 <div class="btn-group"><a class="btn btn-info" href="#">View Team Home</a></div>
               </div>
             </div>
@@ -324,28 +320,42 @@ a.navbar-brand:hover
           <div class="col-lg-4 col-sm-6">
             <div class="preview">
               <div class="image">
-                <a href="#"><img src="http://placehold.it/360x240" class="img-responsive"></a>
+                <a href="#"><img src="http://placehold.it/360x180" class="img-responsive"></a>
               </div>
               <div class="options">
-                <h3>Team Name</h3><br/>
-                <p>Team Member #1</p><p>Team Member #2</p><p>Team Member #3</p><p>Team Member #4</p>
+                <h3>Team Name</h3>
+                <p>Team description... </p>
                 <div class="btn-group"><a class="btn btn-info" href="#">View Team Home</a></div>
               </div>
             </div>
           </div>
 
       </div>
-    </div>
+    </div>-->
 
     <div class="footer">
       <footer>
         <div class="row">
           <div class="col-lg-12">
+            
+            <!--<ul class="list-unstyled">
+              <li class="pull-right"><a href="#top">Back to top</a></li>
+              <li><a href="http://news.bootswatch.com" onclick="pageTracker._link(this.href); return false;">Blog</a></li>
+              <li><a href="http://feeds.feedburner.com/bootswatch">RSS</a></li>
+              <li><a href="https://twitter.com/thomashpark">Twitter</a></li>
+              <li><a href="https://github.com/thomaspark/bootswatch/">GitHub</a></li>
+              <li><a href="http://bootswatch.com/help/#api">API</a></li>
+              <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=F22JEM3Q78JC2">Donate</a></li>
+            </ul>-->
             <p>Hacked together by <a href="http://www.twitter.com/m_rt_/">Martin Butler</a>, standing on the shoulders of <a href="http://thomaspark.me">Thomas Park</a> under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License v2.0</a>. Contact him at <a href="mailto:hello@thomaspark.me">hello@thomaspark.me</a> or me at <a href="mailto:m.butler@cba.com.au">m.butler@cba.com.au</a></p>
             <p>Based on <a href="http://getbootstrap.com">Bootstrap</a>. Icons from <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts">Google</a>. Favicon by <a href="https://twitter.com/geraldhiller">Gerald Hiller</a>.</p>
+
           </div>
         </div>
+        
       </footer>
+    
+
     </div>
 
 
